@@ -18,8 +18,8 @@ fn main() {
     };
 
     let count =  Count {
-        lines: contents.split("\n").collect::<Vec<_>>().len(),
-        words: contents.split(" ").collect::<Vec<_>>().len(),
+        lines: contents.lines().count(),
+        words: contents.split_whitespace().count(),
         chars: contents.chars().count()
     };
 
