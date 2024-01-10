@@ -1,4 +1,4 @@
-# go-wc
+# wc-rs
 
 Rust implementation of linux cli command wc. it counts number of words, lines, bytes, and characters in a file.
 
